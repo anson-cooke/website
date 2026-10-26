@@ -3,22 +3,42 @@
 
 <head>
     <title>KLLED</title>
+
+    <style>
+.tpl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.tpld {
+  float: left;
+}
+
+.tplda {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+</style>
 </head>
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <a href="/" class="logo">KLLED</a>
-
-            <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="/pages/music.html">Music</a>
-                <a href="/pages/images.html">Images</a>
-            </div>
-        </nav>
-    </header>
-
+    <ul class="tpl">
+      <li class="tpld"><a class="tplda" href="http://www.klled.fun">Home</a></li>
+      <li class="tpld"><a class="tplda" href="http://www.klled.fun/pages/music">Music</a></li>
+      <li class="tpld"><a class="tplda" href="http://www.klled.fun/pages/images">Images</a></li>
+    </ul>
+    
     <main>
         <h1>KLLED</h1>
         <p>I'm an
